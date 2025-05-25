@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Welcome',
+  tagline: 'My name is Teodora Ban',
+  favicon: 'img/profile.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -22,11 +22,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'teodoora', // Usually your GitHub org/user name.
+  projectName: 'aboutme', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Gloock&family=Gravitas+One&family=Limelight&family=Oranienbaum&family=Playwrite+HU:wght@100..400&family=Quicksand:wght@300..700&display=swap',
+  ],
+  
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -76,34 +80,34 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Hello',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Hello',
+          src: 'img/profile.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Experience',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
+          {to: '/blog', label: 'Milestones', position: 'left'},
+          /** {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
+          /**{
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Hello',
                 to: '/docs/intro',
               },
             ],
@@ -124,7 +128,7 @@ const config = {
                 href: 'https://x.com/docusaurus',
               },
             ],
-          },
+          }, 
           {
             title: 'More',
             items: [
@@ -137,15 +141,18 @@ const config = {
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
-          },
+          }, */
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Teodora Ban. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      
     }),
+
 };
+
 
 export default config;

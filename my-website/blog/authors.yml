@@ -8,16 +8,40 @@ yangshun:
     x: yangshunz
     github: yangshun
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
+ms:
+  name: Morgan Stanley
+  title: Technology Department
+  url: https://morganstanley.com
+  image_url: https://avatars.githubusercontent.com/u/72878956?s=200&v=4
+
+pwc:
+  name: PwC
+  title: PwC's Academy 
+  url: https://cee.pwc.com/digital-learning-solutions.html
+  image_url: https://avatars.githubusercontent.com/u/72878956?s=200&v=4
+
+grundofs:
+  name: Grundfos
+  title: Learning Department
+  url: https://grundfos.com
+  image_url: https://media.licdn.com/dms/image/v2/D4E0BAQEBLAptUJzo8Q/company-logo_200_200/company-logo_200_200/0/1664528861554/grundfos_logo?e=1753920000&v=beta&t=IY7bIQ7rVrohalyF0eox9pIFvwJZEP1G7JQ1ygcXDnQ
+  # page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    # permalink: '/all-sebastien-lorber-articles'
+  # socials:
+    #  x: sebastienlorber
+    # linkedin: sebastienlorber
+    # github: slorber
+    # newsletter: https://thisweekinreact.com
+
+bce:
+  name: Corvinus University of Budapest
+  title: Marketing Faculty
+  url: https://www.uni-corvinus.hu
+  image_url: https://www.uni-corvinus.hu/contents/uploads/2025/02/corvinus-old-building.png
+
+wp: 
+  name: WP Kurzus
+  title: Training Provider
+  url: https://wpkurzus.hu/
+  image_url: /blog/wpkurzus.png
